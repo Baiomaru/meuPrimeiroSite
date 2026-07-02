@@ -6,8 +6,27 @@ padding: 0;
 
 body{ 
 
-  background-color: aqua;
-  color: #116820;
+  background-color: rgb(137, 180, 180);
+  color: #416948;
   margin: 0px;
   margin-bottom: 100px;
+} 
+
+.container{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+#BloonsTD{
+
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+
 }
